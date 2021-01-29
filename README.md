@@ -1,14 +1,6 @@
 # memorize.ai API
 
-## Where to find your API key
-
-<img
-	src="https://storage.googleapis.com/file-in.appspot.com/files/XeTXzcNpuK.png"
-	alt="Where to find your API key"
-	width="400"
-/>
-
-Click **"My API key"** at the bottom. Your API key must be included in every request.
+**[Your API key](https://memorize.ai/settings/develop?key)**
 
 ## Base URL
 
@@ -44,7 +36,7 @@ or
 
 - `key` (required) Your API key
 - `short_id` (required) The deck's short ID. Can be found in the URL
-	- `/d/{short_id}/...`
+  - `/d/{short_id}/...`
 
 #### Response
 
@@ -59,14 +51,14 @@ or
 - `subtitle: string`
 - `description: string`
 - `ratings: object`
-	- `average: number`
-	- `total: number`
-	- `individual: number[5]`
-		- `number` 1 star ratings
-		- `number` 2 star ratings
-		- `number` 3 star ratings
-		- `number` 4 star ratings
-		- `number` 5 star ratings
+  - `average: number`
+  - `total: number`
+  - `individual: number[5]`
+    - `number` 1 star ratings
+    - `number` 2 star ratings
+    - `number` 3 star ratings
+    - `number` 4 star ratings
+    - `number` 5 star ratings
 - `downloads: number`
 - `cards: number`
 - `unsectioned_cards: number`
